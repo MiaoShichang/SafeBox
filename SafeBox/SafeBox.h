@@ -19,7 +19,7 @@
  */
 
 #ifdef DEBUG
-    #define SafeBox_Start TRUE
+    #define SafeBox_Start FALSE
 #else
     #define SafeBox_Start TRUE
 #endif
@@ -60,7 +60,7 @@
 是否使用请慎重考虑，产生后果自己承担
  
  <><><><><><><><><><><><>
- 注意  NSObject+SafeBox.h 文件中的用法，是用来防止访问实例没有的方法时造成崩溃的问题
+ 注意  NSObject+SafeBox.h 文件中的用法，是用来防止访问 实例 没有的 方法 时造成崩溃的问题
  
  
  

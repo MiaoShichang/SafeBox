@@ -18,6 +18,9 @@ NSLog(@"dict -- %@", dict);
 (0x18b73efe0 0x18a1a0538 0x18b6259b4 0x18b625824 0x100082220 0x19186fec0 0x19186fa9c 0x19187631c 0x1918737b8 0x1918e5224 0x191aed7ec 0x191af31e0 0x191b07d18 0x191af0474 0x18d2e7884 0x18d2e76f0 0x18d2e7aa0 0x18b6ed42c 0x18b6ecd9c 0x18b6ea9a8 0x18b61ada4 0x1918da384 0x1918d5058 0x100082848 0x18a62959c)
 libc++abi.dylib: terminating with uncaught exception of type NSException
 
+<><><><><><><><><><><><>
+
+注意  NSObject+SafeBox.h 文件中的用法，是用来防止访问 实例 没有的 方法 时造成崩溃的问题
 
 <><><><><><><><><><><><>
 
