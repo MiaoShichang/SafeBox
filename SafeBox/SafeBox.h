@@ -10,6 +10,24 @@
 #define SafeBox_h
 
 /**
+ 
+ 开关说明：
+ 1 如果是DEBUG模式，应该关掉，这样可以很容易在开发阶段就可以发现问题；
+ 2 只有在上线以后才打开开关，这样可以减少APP的崩溃。
+ 
+ 注意：也可以在DEBUG模式下使用，只是将（SafeBox.h)下面的SafeBox_Start FALSE 改为 SafeBox_Start TRUE 就可以了
+ */
+
+#ifdef DEBUG
+    #define SafeBox_Start TRUE
+#else
+    #define SafeBox_Start TRUE
+#endif
+
+
+
+
+/**
 <><><><><><><><><><><><>
  
 代码的主要作用是减少对数组，字典进行一些操作时，带有nil参数造成的崩溃。
@@ -42,24 +60,16 @@
 是否使用请慎重考虑，产生后果自己承担
  
  <><><><><><><><><><><><>
- */
-
-
-/**
+ 注意  NSObject+SafeBox.h 文件中的用法，是用来防止访问实例没有的方法时造成崩溃的问题
  
- 开关说明：
- 1 如果是DEBUG模式，应该关掉，这样可以很容易在开发阶段就可以发现问题；
- 2 只有在上线以后才打开开关，这样可以减少APP的崩溃。
  
- 注意：也可以在DEBUG模式下使用，只是将（SafeBox.h)下面的SafeBox_Start FALSE 改为 SafeBox_Start TRUE 就可以了
+ 
+ 
  
  */
 
-#ifdef DEBUG
-    #define SafeBox_Start FALSE
-#else
-    #define SafeBox_Start TRUE
-#endif
+
+
 
 
 

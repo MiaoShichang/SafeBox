@@ -20,6 +20,7 @@
 		7A4C47921EDE9CF000ED66B3 /* NSMutableArray+SafeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C47911EDE9CF000ED66B3 /* NSMutableArray+SafeBox.m */; };
 		7A4C47951EDE9E6000ED66B3 /* NSDictionary+SafeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C47941EDE9E6000ED66B3 /* NSDictionary+SafeBox.m */; };
 		7A4C47981EDE9ECC00ED66B3 /* NSMutableDictionary+SafeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4C47971EDE9ECC00ED66B3 /* NSMutableDictionary+SafeBox.m */; };
+		7AC2B50F1EE17B6900102181 /* NSObject+SafeBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC2B50E1EE17B6900102181 /* NSObject+SafeBox.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		7A4C47961EDE9ECC00ED66B3 /* NSMutableDictionary+SafeBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+SafeBox.h"; sourceTree = "<group>"; };
 		7A4C47971EDE9ECC00ED66B3 /* NSMutableDictionary+SafeBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+SafeBox.m"; sourceTree = "<group>"; };
 		7A763A361EDFAA56009DB9FB /* SafeBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeBox.h; sourceTree = "<group>"; };
+		7AC2B50D1EE17B6900102181 /* NSObject+SafeBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SafeBox.h"; sourceTree = "<group>"; };
+		7AC2B50E1EE17B6900102181 /* NSObject+SafeBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SafeBox.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 			children = (
 				7A4C478A1EDE94F700ED66B3 /* NSObject+Swizzle.h */,
 				7A4C478B1EDE94F700ED66B3 /* NSObject+Swizzle.m */,
+				7AC2B50D1EE17B6900102181 /* NSObject+SafeBox.h */,
+				7AC2B50E1EE17B6900102181 /* NSObject+SafeBox.m */,
 				7A4C478D1EDE994D00ED66B3 /* NSArray+SafeBox.h */,
 				7A4C478E1EDE994D00ED66B3 /* NSArray+SafeBox.m */,
 				7A4C47901EDE9CF000ED66B3 /* NSMutableArray+SafeBox.h */,
@@ -318,6 +323,7 @@
 				7A4C47981EDE9ECC00ED66B3 /* NSMutableDictionary+SafeBox.m in Sources */,
 				7A4C475B1EDE941100ED66B3 /* AppDelegate.m in Sources */,
 				7A4C47951EDE9E6000ED66B3 /* NSDictionary+SafeBox.m in Sources */,
+				7AC2B50F1EE17B6900102181 /* NSObject+SafeBox.m in Sources */,
 				7A4C47581EDE941100ED66B3 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
